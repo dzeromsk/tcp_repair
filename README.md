@@ -28,9 +28,7 @@ bar> world
 ## Potential Use Cases:
 
 * **Process Checkpoint/Restore**: Seamlessly save and restore network connections using tools like [CRIU](https://criu.org/TCP_connection).
-
 * **Graceful Restarts**: Maintain active connections during application restarts without disruption.
-
 * **Direct Server Return (L7-DSR) / SYN Proxy**: Transfer established connections (e.g., post-SSL handshake) from a load balancer to a backend server, ensuring smooth traffic management and migration.
 
 ## References
